@@ -11,7 +11,7 @@ pipeline {
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
         DOCKER_IMAGE = 'sunnybhardwaj2124/bms:latest'
-        EKS_CLUSTER_NAME = 'sunny-bms-eks'
+        EKS_CLUSTER_NAME = 'sunny-eks'
         AWS_REGION = 'us-east-1'
     }
 
